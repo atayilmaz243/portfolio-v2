@@ -1,0 +1,33 @@
+
+
+#accounts-container {
+	width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap:30px;
+
+}
+
+.account {
+	margin:0;
+	margin-bottom: 2px;
+	font-weight:500;
+	font-size: 20px;
+}
+
+
+.account-description {
+	margin:0; 
+	font-weight:300;
+	font-size: 16px;
+	color: rgb(100 116 139);
+	cursor: pointer;
+	text-decoration-line: none;
+}
+
+
+@media (max-width:680px)
+{
+
+}

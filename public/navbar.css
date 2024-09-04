@@ -1,0 +1,48 @@
+#navbar {
+	display: flex;
+	flex-direction: column;
+	width: 120px;
+	gap: 16px;
+	margin-top: 160px;
+	font-family: "JetBrains Mono", monospace;
+  	font-optical-sizing: auto;
+/*    font-weight: <weight>;*/
+  	font-style: normal;
+  	font-size: 14px;
+}
+
+.nav-underline {
+	text-underline-offset: 4px;
+	text-decoration-line: underline; text-decoration-color: #0ea5e9;
+}
+
+.nav-element {
+	cursor: pointer;
+	color: black;
+	text-decoration-line: none;
+}
+
+
+@media (max-width:900px)
+{
+	#navbar {
+		flex-direction: row;
+		width: 100%;
+		box-sizing: border-box;
+		padding-left: 40px;
+		gap: 24px;
+		margin-top: 40px;
+	}
+	.current {
+		text-decoration-line: underline;
+			text-underline-offset: 4px;
+	}
+}
+
+@media (max-width:680px)
+{
+	#navbar {
+		padding-left: 20px;
+	}
+
+}

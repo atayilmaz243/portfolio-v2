@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hi, I'm Ata</title>
+    <link rel="icon" href="/images/portfolio-icon.png" type="image/png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="/navbar.css">
+	<link rel="stylesheet" href="/project-page/project.css">
+	<link rel="stylesheet" href="/index.css">
+	<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body style = "display: flex; justify-content: center;">
+	<nav id = "navbar">
+		<span id = 'nav-about' class = 'nav-element'>About Me</span>
+		<span id = 'nav-project' class = 'nav-element current'>@ Projects</span>
+		<span id = 'nav-contact' class = 'nav-element'>Contact</span>
+	</nav>
+
+	<div id="main-container" class="hidden">
+	    <h1 style="font-weight: 500; margin-bottom: 0px;">Personal Projects</h1>
+	    <!-- <hr style="width: 100%;"> -->
+	    
+	    <div id="project-container" style="margin-top: 40px;">
+	        <div id="bookcritic" class="project">
+	            <div style="display: flex; align-items: center; gap: 10px;">
+	                <img class="project-img" src="/images/book-critic-logo.png" alt="Book Critic Logo">
+	                <h3 class="project-header">Book Critic</h3>
+	            </div>
+	            <span class="project-description">A fully responsive website for those who want to share their experience of a book and find books based on others' opinions.</span>
+	        </div>
+	        <div id="gts" class="project">
+	            <div style="display: flex; align-items: center; gap: 10px;">
+	                <img class="project-img" src="/images/gts-logo.png" alt="Guess The Song Logo">
+	                <h3 class="project-header">Guess The Song Multiplayer</h3>
+	            </div>
+	            <span class="project-description">A multiplayer game where players guess which song is currently playing. The game consists of several rounds, and the player who guesses the most songs correctly wins!</span>
+	        </div>
+	        <div id="pathfinder" class="project">
+	            <div style="display: flex; align-items: center; gap: 10px;">
+	                <img class="project-img" src="/images/path-finding-logo.png" alt="Path Visualizer Logo">
+	                <h3 class="project-header">Path Visualizer</h3>
+	            </div>
+	            <span class="project-description">A tool designed for visualizing common pathfinding algorithms. You can add obstacles and mazes to visualize various scenarios.</span>
+	        </div>
+	    </div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="/project-page/project.js"></script>
+	<script type="text/javascript" src = '/nav.js'></script>
+</body>
+</html>
